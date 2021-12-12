@@ -10,7 +10,7 @@ esphome:
   platform: ESP8266
   board: esp01_1m
 wifi:
-  ssid: !secret ssid
+  ssid: !secret wifi_ssid
   password: !secret wifi_password
 
 logger:
